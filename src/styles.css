@@ -1,0 +1,292 @@
+:root{
+    --color1: #7fb77e;
+    --color2: #b1d7b4;
+    --color3: #ffc090;
+    --color4: #f3f1c5;
+}
+header{
+    background-color: var(--color4);
+    width: 100%;
+    position: fixed;
+}
+.menuMobile{
+    display: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: var(--color1);
+}
+ nav ul, nav li{
+    list-style: none;
+ }
+ nav ul{
+    display: flex;
+    justify-content: center;
+ }
+ nav a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+ }
+ nav a:hover{
+    background-color: #fff;
+ }
+#home{
+    background-image: url(images/melissa-benoist-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+#home h1{
+    font-family: 'Alkatra', cursive;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-right: 320px;
+}
+#home h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 250px;
+    padding-left: 80px;
+    width: 350px;
+    text-align: center;
+}
+#biography{
+    background-color: var(--color2);
+    text-align: center;
+}
+#bioInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 50px 60px; 
+}
+#biography h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #000;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+#bioInfo img{
+    border-radius: 100px;
+    width: 200px;
+    border: 3px dotted var(--color1);
+}
+#bioInfo h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: 600px;
+    text-align: justify;
+    padding-left: 25px;
+}
+#moreInfo{
+    background-color: var(--color1);
+    width: 50%;
+    padding-top: 10px;
+    margin-left: 25%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+#moreInfo h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding-top: 5px;
+}
+#moreInfo ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    width: 40px;
+    margin: 20px 10px;
+    padding-bottom: 15px;
+}
+#funFacts{
+    background-color: #f3f1c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#funFacts h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+#funFacts li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+    list-style-type: circle;
+}
+#funFacts a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+}
+#funFacts button{
+    background-color: var(--color2);
+    border-radius: 8px;
+    border: 1px solid #000;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#funFacts button:hover{
+    background-color: var(--color1);
+}
+#filmography{
+    background-color: var(--color3);
+}
+#filmography h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+}
+#projects{
+    display: flex;
+    justify-content: center;
+}
+#projects h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.poster{
+    display: flex;
+    background-color: #f3f1c5;
+    width: 350px;
+    height: 130px;
+    margin-bottom: 15px;
+    border: 3px dashed #616161;
+}
+.poster img{
+    width: 70px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 2px solid #bbb3b3;
+}
+.poster ul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 38px;
+}
+#movies{
+    flex: 1;
+    margin: 20px 0px 20px 50px;
+    border-right: 2px solid #616161;
+}
+#tvShows{
+    flex:1;
+    margin: 20px 0px 20px 50px;
+    border-right: 2px solid #616161;
+} 
+#theater{
+    flex: 1;
+    margin: 20px 0px 20px 50px;
+}
+#books{
+    background-color: #f3f1c5;
+}
+#booksInfo{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#books h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+}
+#books .poster{
+    background-color: var(--color3);
+    width: 410px;
+}
+#awards{
+    background-color: var(--color2)
+}
+#awards h1{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+}
+#awardsInfo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#saturn{
+    margin-right: 30px;
+}
+#saturn img{
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 25px;
+    border: 2px solid #bbb3b3;
+}
+#tca img{
+    width: 50px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+.awardBox{
+    background-color: #f3f1c5;
+    width: 180px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    box-shadow: 3px 3px 5px #bbb3b3;
+}
+.awardBox ul{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+footer{
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+}
+footer h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-top: 12px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+footer img{
+    width: 20px;
+    margin: 10px 0px 10px 10px;
+}

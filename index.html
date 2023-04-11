@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="src/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/styles.css">
+    <link rel="stylesheet" type="text/css" href="src/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,300;1,300&family=Quicksand&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector("nav ul").style.display == 'flex'){
+                    document.querySelector(".menuMobile").style.display = 'none';
+                }
+                else{
+                    document.querySelector("nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    <title>Tribute Page to Melissa Benoist</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menuMobile">
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+                <div class="mm_line"></div>
+            </div>
+            <ul> 
+                <li><a href="#home"> Home </a></li>
+                <li><a href="#biography"> Biography</a></li>
+                <li><a href="#funFacts"> Fun Facts</a></li>
+                <li><a href="#filmography"> Filmography</a></li>
+                <li><a href="#books">Books </a></li>
+                <li><a href="#awards"> Awards</a></li>
+            </ul>
+        </nav>
+    <main>
+        </header>
+        <section id="home">
+            <h1> Melissa Benoist</h1>
+            <h2><em>"Life doesn't have to be as hard as we make it for ourselves a lot of the time."</em></h2>
+        </section>
+        <section id="biography">
+            <h1> Biography</h1>
+            <div id="bioInfo">
+                <img src="src/images/melissa-bio.jpg" alt="Melissa's Profile">
+                <h2>  Melissa Marie Benoist, born on October 4, 1988, is an American actress, singer, producer and writer. She was born in Houston, Texas. She started dance classes at the age of three, focusing on jazz, ballet, and tap. When she was four years old, her aunt put her in a church play she was directing; after that, she began doing community children's theater in her hometown.</h2>
+            </div>
+            <div id="moreInfo">
+                <h2> Learn more on:</h2>
+                <ul>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Melissa_Benoist" target="_blank">
+                            <img src="src/images/wikipedia.png" alt="Wikipedia's icon" class="icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.imdb.com/name/nm2552034/" target="_blank">
+                            <img src="src/images/imdb.png" alt="IMDb's icon" class="icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/melissabenoist/" target="_blank">
+                            <img src="src/images/instagram.png" alt="Instagram's icon" class="icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="funFacts">
+            <h1> Fun Facts </h1>
+            <ul>
+                <li> She has three tattoos: a wolf on her left wrist, a feather and the word "free" on the back of her neck, and a bicycle on her left foot;</li>
+                <li> The actress has a son, Huxley Robert Wood, with her husband, Chris Wood;</li>
+                <li> Was the very first of a thousand actors to audition for the title role of Supergirl;</li>
+                <li> When she has down time at home, she likes to get crafty in the kitchen or at her pottery wheel.</li>
+            </ul>
+            <button><a href="https://www.thelist.com/229655/melissa-benoist-14-things-you-probably-dont-know-about-the-supergirl-star/" target="_blank" >Read More</a></button>
+        </section>
+        <section id="filmography">
+            <h1> Filmography</h1>
+            <div id="projects">
+                <div id="movies">
+                    <h2>Movies</h2>
+                    <div id="theLongestRide">
+                        <div class="poster">
+                            <img src="src/images/The_Longest_Ride_poster.png" alt="The Longest Ride Poster">
+                            <ul>
+                                <li>The Longest Ride</li>
+                                <li>2015</li>
+                                <li>Character: Marcia</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="patriotsDay">
+                        <div class="poster">
+                            <img src="src/images/Patriots_Day-132235719-large.jpg" alt="Patriots Day Poster">
+                            <ul>
+                                <li>Patriots Day</li>
+                                <li>2016</li>
+                                <li>Character: Katherine Russell</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="sunDogs">
+                        <div class="poster">
+                            <img src="src/images/sun-dogs-poster.jpg" alt="Sun Dogs Poster">
+                            <ul>
+                                <li>Sun Dogs</li>
+                                <li>2017</li>
+                                <li>Character: Tally Petersen</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="tvShows">
+                    <h2>TV Shows</h2>
+                    <div id="glee">
+                        <div class="poster">
+                            <img src="src/images/glee-poster.jpg" alt="Glee Poster">
+                            <ul>
+                                <li>Glee</li>
+                                <li>2012-2014</li>
+                                <li>Character: Marley Rose</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="supergirl">
+                        <div class="poster">
+                            <img src="src/images/supergirl-poster.jpg" alt="Supergirl Poster">
+                            <ul>
+                                <li>Supergirl</li>
+                                <li>2015-2021</li>
+                                <li>Character: Kara Danvers/Supergirl</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="theGirlsOnTheBus">
+                        <div class="poster">
+                            <img src="src/images/tgotb.jpg" alt="Melissa as her character on The Girls on the Bus">
+                            <ul>
+                                <li>The Girls on the Bus</li>
+                                <li>TBA(to be anounced)</li>
+                                <li>Character: Sadie McCarthy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="theater">
+                    <h2>Theater</h2>
+                    <div id="rahCinderella">
+                        <div class="poster">
+                            <img src="src/images/cinderella.jpg" alt="Rodger and Hammerstein's Cinderella scene">
+                            <ul>
+                                <li>Rodger and Hammerstein's Cinderella</li>
+                                <li>2006</li>
+                                <li>Character: Cinderella</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="asYouLikeIt">
+                        <div class="poster">
+                            <img src="src/images/as-you-like-it.jpg" alt="As You Like It scene">
+                            <ul>
+                                <li>As You Like It</li>
+                                <li>2009</li>
+                                <li>Character: Rosalind</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="beautifulTCKM">
+                        <div class="poster">
+                            <img src="src/images/beautifultckm-poster.webp" alt="Beautiful: The Carole King Musical's poster">
+                            <ul>
+                                <li>Beautiful: The Carole King Musical</li>
+                                <li>2018</li>
+                                <li>Character: Carole King</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="books">
+            <h1> Books </h1>
+            <div id="booksInfo">
+                <div id="thePowersI">
+                    <div class="poster">
+                        <img src="src/images/thepowers1.jpg" alt="Book 'The Powers: Haven's Secret'">
+                        <ul>
+                            <li>The Powers: Haven's Secret</li>
+                            <li>2021</li>
+                            <li>Writers: Melissa Benoist and Jessica Benoist-Young</li>
+                        </ul>
+                    </div>
+                </div>    
+                <div id="thePowers2">
+                    <div class="poster">
+                        <img src="src/images/thepowers2.jpg" alt="Book 'The Powers: Haven's Legacy'">
+                        <ul>
+                            <li>The Powers: Haven's Legacy</li>
+                            <li>2023</li>
+                            <li>Writers: Melissa Benoist and Jessica Benoist-Young</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="awards">
+            <h1> Awards </h1>
+            <div id="awardsInfo">
+                <div id="saturn" class="awardBox">
+                    <img src="src/images/Saturn-Award.jpg" alt="Saturn Award">
+                    <ul>
+                        <li>Breakthrough Performance Award (2016);</li>
+                        <li>Best Actress on a Television Series (2017);</li>
+                        <li>Best Actress on a Television Series (2019).</li>
+                    </ul>
+                </div>
+                <div id="tca" class="awardBox">
+                    <img src="src/images/2017-teen-choice-surfboard.png">
+                    <ul>
+                        <li>Choice Action TV Actress (2017);</li>
+                        <li>Choice Action TV Actress (2018).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>coded by Maithe Saba</h4>
+        <ul>
+            <li>
+                <a href="https://github.com/MaitheSaba" target="_blank">
+                    <img src="src/images/logotipo-do-github.png" alt="Github's icon">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/maithe_saba/" target="_blank">
+                    <img src="src/images/instagram.png" alt="Instagram's icon">
+                </a>
+            </li> 
+        </ul> 
+    </footer>
+</body>
+</html>
